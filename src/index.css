@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family:Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.res-img{
+  position: relative;
+  height: 80vh;
+}
+
+
+/* card icon description style */
+
+.frame {
+  transition: 0.4s all;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+
+.panel-group .panel-heading a:after {
+  content: '-';
+  float: right;
+}
+
+button.accordion-button::after {
+  content: '\2b';
+  background: none;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 1rem;
+}
+.accordion-button:not(.collapsed)::after {
+  content: '-';
+  margin-right: 1rem;
+  background: none;
+  transform: none;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+
+button.accordion-button{
+  flex-direction: row-reverse !important;
+  justify-content: start ;
+}
+
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.green li::before {
+  content: "\2022";  
+  color: #86be3f;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
+
+ul {
+  padding-left: 1rem !important;
+}
+
+.text-success{
+  color: #86be3f !important;
+}
+
+.img-width{
+  width: 3rem !important;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+
+.connesso{
+  background-image: url(../public/images/bg-pattern.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.accordion-body{
+  text-align: left !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.backsi {
+  background-image: url(../public/images/Frame\ 7.png);
+  background-size: fill;
+  background-attachment: fixed;
+  background-position: center;
+}
+
